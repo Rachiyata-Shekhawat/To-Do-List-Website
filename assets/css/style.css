@@ -90,6 +90,12 @@ input:focus { border: 2px solid var(--lightPeach);}
   background-color: var(--lightPeach);
 }
 
+.container-top button:hover {
+  border: 1px solid var(--lightPeach);
+  background-color: var(--customPeach);
+}
+
+
 
 /********************************** container-bottom **********************************/
 
