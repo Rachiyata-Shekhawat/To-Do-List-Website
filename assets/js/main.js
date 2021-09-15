@@ -18,8 +18,7 @@ add_button.addEventListener('click', function() {
                                       </span>
                                     </li>
                                   `;
-    // show();
-
+                                  
     let item_bar = document.querySelectorAll('.item-bar');
     let deleteItem = document.querySelectorAll('.delete');
     let strikeItem = document.querySelectorAll('.strike');
@@ -36,55 +35,20 @@ add_button.addEventListener('click', function() {
       };
     }
 
-    // var current_tasks = document.querySelectorAll(".delete");
-    // for (let i = 0; i < current_tasks.length; i++) {
-    //   current_tasks[i].onclick = function () {
+   
+    //   current_tasks[i].onclick = function () {};
     //     this.parentNode.remove();
-    //   } 
-
-    // }
+    
   }
 });
     
 
-
-    function show() {
-      // this will add the items to the list
-      // input_value=document.getElementById('input').value
-      // container_bottom.innerHTML  += `
-      // <li id="item-bar" class="item-bar flex-center spaceBetween">
-      //   <span class="item cursive colorCustomPeach">${input_value}</span>
-      //   <span class="strikeAndDeleteButton flex-center">
-      //     <i id="strike" class="fa fa-minus fa-2x strike colorCustomPeach" onclick="strikeItem()" ></i>
-      //     <i id="delete" class="fa fa-trash delete colorCustomPeach onclick="deleteItem()" ></i>
-      //   </span>
-      // </li>
-      // `;
-
-      // li += `
-      // <li id="item-bar" class="item-bar flex-center spaceBetween">
-      //   <span class="item cursive colorCustomPeach">${input_value}</span>
-      //   <span class="strikeAndDeleteButton flex-center">
-      //     <i class="fa fa-minus fa-2x strike colorCustomPeach"></i>
-      //     <i class="fa fa-trash delete colorCustomPeach "></i>
-      //   </span>
-      // </li>
-      // `;
-
-      // container_bottom.innerHTML = li;
-
-      
-    }
-
     // why is this giving null
     // let deleteItem = document.querySelector('i'); 
     // let strikeItem = document.getElementById('strike');
-
-
     // function strikeItem() {
     //   alert('working strike');
     // }
-
     // function deleteItem() {
     //   alert('working delete');
     // }
