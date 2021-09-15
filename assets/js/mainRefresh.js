@@ -2,6 +2,7 @@
 // while striking it starts actioning the next item
 // add event at enter
 // save decoration style after refresh
+// text-decoration-thickness
 
 /********************************* *********************************/
 
